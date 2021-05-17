@@ -12,6 +12,10 @@ def update_score(oldscore, team):
     points_home = oldscore[2]
     points_away = oldscore[3]
 
-    # schrijf hier de nodige code om de testen te doen slagen
+    # code
+
+if score == "h"
+
+    set_home
 
     return sets_home, sets_away, points_home, points_away
