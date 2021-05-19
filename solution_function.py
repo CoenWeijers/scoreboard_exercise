@@ -25,10 +25,21 @@ def update_score(oldscore, team):
        sets_away = sets_away +1
        points_home = 0
 
+
     if points_home >=25:
        points_home = 0
        sets_home = sets_home +1
        points_away = 0
+
+    if points_home - points_away >= 2:
+       sets_home = sets_home +1
+
+   if  points_away > 25 :
+
+        if points_away-points_home>=2:
+        sets_away = sets_away +1
+
+
 
 
 

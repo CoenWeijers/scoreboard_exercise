@@ -77,7 +77,7 @@ def test_25_difference_not_enough():
     sprake is van set winst.
     """
     score = (0, 1, 24, 24)
-    new_score = update_score(score, "A")
+    new_score = update_score(score,"A")
     assert new_score == (0, 1, 24, 25)
 
 
